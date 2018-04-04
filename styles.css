@@ -1,4 +1,57 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+
 html,body {
     margin:0;
     padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #EE5A24;
+    color:#FFFFFF;
+    font-size: 25px;
+    padding:15px;
+    cursor: pointer;
+}
+
+#box {
+    width:500px;
+    overflow: hidden;
+    background: #dddddd;
+    border-radius: 15px;
+    display: none;
+    padding:8px;
+    box-shadow: 0 0 15px black;
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index:10;
+    margin:10px;
+
+}
+
+#box span {
+    color:#009432;
+    display: block;
+    font-size:50px;
+}
+
+#box h1 {
+    color:#2e2c2c;
+}
+
+.ion-close-circled {
+    background: #EA2027;
+    border-radius: 12px;
+    color:#FFFFFF;
+    display: inline-block;
+    font-size: 25px;
+    padding:10px 20px;
+    cursor: pointer;
 }
